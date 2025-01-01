@@ -13,7 +13,7 @@ def test_login():
     password = "password123"
 
     service = Service('path/to/chromedriver')
-    driver = webdriver.Chrome(service=service)
+    driver = webdriver.Chrome(service=service   
 
     try:
         driver.get(url)
